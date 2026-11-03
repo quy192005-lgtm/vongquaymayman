@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -74,6 +75,14 @@ export default function RootLayout({
       </head>
       <body className="antialiased bg-slate-950 text-slate-100 min-h-screen">
         {children}
+
+        {/* Adsterra Social Bar Ads */}
+        <Script
+          id="adsterra-social-bar"
+          strategy="afterInteractive"
+          data-cfasync="false"
+          src="https://bicea.org/14/3a10b2ec5f8fe68ea2ef7d680bf24b3c"
+        />
       </body>
     </html>
   );
