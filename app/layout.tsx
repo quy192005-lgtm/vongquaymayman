@@ -71,10 +71,20 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-        {/* Adsterra Social Bar Ad Script (Chèn trực tiếp vào head để load ngay lập tức) */}
+        {/* Adsterra Script 1: Social Bar */}
         <script
           data-cfasync="false"
           src="https://bicea.org/14/3a10b2ec5f8fe68ea2ef7d680bf24b3c"
+        />
+        {/* Adsterra Script 2 */}
+        <script
+          data-cfasync="false"
+          src="https://afders.org/1/676ff6988fc5ce398f08306533726373"
+        />
+        {/* Adsterra Script 3: Popunder */}
+        <script
+          type="text/javascript"
+          src="https://arwf.org/4/433168dfc2e526e4314c769f5bad0333"
         />
       </head>
       <body className="antialiased bg-slate-950 text-slate-100 min-h-screen">

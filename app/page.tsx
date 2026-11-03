@@ -8,6 +8,8 @@ import { Header } from '@/components/Header';
 import { LuckyWheel } from '@/components/LuckyWheel';
 import { WinnerModal } from '@/components/WinnerModal';
 import { WheelSettingsDrawer } from '@/components/WheelSettingsDrawer';
+import { AdBanner468x60 } from '@/components/AdBanner468x60';
+import { AdNativeBanner } from '@/components/AdNativeBanner';
 import { Sparkles, Trophy, RotateCcw, Shuffle, Gift, Utensils, HelpCircle, Hash, PartyPopper } from 'lucide-react';
 
 const DEFAULT_SETTINGS: WheelSettings = {
@@ -252,6 +254,12 @@ export default function Home() {
               </div>
             </div>
           )}
+
+          {/* Adsterra Banner 468x60 */}
+          <AdBanner468x60 />
+
+          {/* Adsterra Native Banner Container */}
+          <AdNativeBanner />
         </main>
 
         {/* Footer */}
