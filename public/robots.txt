@@ -2,5 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://vongquaymayman-navy.vercel.app/sitemap.xml
-
+Sitemap: https://vongquaymayman247.vercel.app/sitemap.xml
